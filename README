@@ -1,0 +1,10 @@
+git-whoami is an additional Git command that tells you what author and
+committer information would (probably) be used for a commit.  This is
+particularly helpful if you operate many different Git repositories
+with different identities (work, private, different projects).
+Inspired by bzr whoami.
+
+To use it, either just call it as "git-whoami", or create an alias
+like this:
+
+    git config --global alias.whoami git-whoami
