@@ -4,7 +4,5 @@ particularly helpful if you operate many different Git repositories
 with different identities (work, private, different projects).
 Inspired by bzr whoami.
 
-To use it, either just call it as "git-whoami", or create an alias
-like this:
-
-    git config --global alias.whoami git-whoami
+To be able to use it, just put it in your path somewhere.  You can
+then call it as "git whoami" or directly as "git-whoami".
