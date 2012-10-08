@@ -10,7 +10,7 @@
 set -e
 
 get_email() {
-	git config user.email || ( [ -n "$EMAIL" ] && echo "$EMAIL" ) || echo "$(id -nu)@$(hostname --fqdn)"
+	git config user.email || ( [ -n "$EMAIL" ] && echo "$EMAIL" ) || echo "$(id -nu)@$(hostname -f)"
 }
 
 get_name() {
